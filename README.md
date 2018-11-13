@@ -4,7 +4,7 @@ First i have iterated through the array and created an hours array to find the t
 
 I have created divs for each event by mapping each to a div in hours array.
 
-Used translateY to position the event div. Didn't get quite right.
+Used translateY to position the event div.
 
 Checking if the start times vary by more than 30 minutes,
 if yes logging that no possibilities and turning border to black.

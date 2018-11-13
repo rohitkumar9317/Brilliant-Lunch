@@ -41,5 +41,6 @@ section div.event {
   border-left: 2px solid blue;
   border-bottom: 2px solid green;
   margin-left: 3px;
+  float: left;
   /* transform: translateY(243.75px); */
 }

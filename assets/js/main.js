@@ -52,7 +52,15 @@ function matchLunchEvent(arr) {
   }
   for (let i = 0; i < times.length; i++) {
     if (times[i] === Math.min(...times)) {
+      let allDivs = Array.from(document.getElementsByTagName("div"));
+      allDivs.forEach(div => {
+        if (div.textContent === "Me") {
+          div.style.borderLeft = "2px solid green";
+        }
+      });
       console.log("Nikki is going to have lunch with:");
+      allDivs[i + 1].style.borderLeft = "2px solid green";
+
       console.log(hours[i + 1]);
       return arr[i + 1];
     }
